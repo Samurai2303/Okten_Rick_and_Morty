@@ -1,0 +1,11 @@
+<div *ngIf="characterInfo">
+  <img src="{{characterInfo.image}}" alt="characterPhoto">
+  <p>
+    Name: {{characterInfo.name}} <br>
+    Status: {{characterInfo.status}} <br>
+    Species: {{characterInfo.species}} <br>
+    Gender: {{characterInfo.gender}} <br>
+    Origin: {{characterInfo.origin.name}} <br>
+    Location: {{characterInfo.location.name}}
+  </p>
+</div>

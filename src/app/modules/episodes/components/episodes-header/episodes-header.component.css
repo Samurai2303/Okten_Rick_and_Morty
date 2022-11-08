@@ -1,0 +1,26 @@
+.wrap {
+  background: #0a0a0a;
+  box-shadow: 0 0 8px 1px cyan;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid cyan;
+}
+
+.title {
+  margin: 0;
+  width: 400px;
+  height: 30px;
+  background: inherit;
+  border-radius: 10px;
+  border: 3px solid cyan;
+  box-shadow: 0 0 12px 0 cyan inset;
+  color: cyan;
+  font-size: 22px;
+  font-family: Algerian, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

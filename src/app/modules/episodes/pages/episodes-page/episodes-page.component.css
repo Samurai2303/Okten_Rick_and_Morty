@@ -1,0 +1,28 @@
+.btnsWrap {
+  background: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+}
+.prev, .next {
+  width: 80px;
+  height: 40px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: cyan;
+  border-radius: 10px;
+  border: 2px solid cyan;
+  box-shadow: 0 0 10px 0 cyan inset;
+  transition: 300ms;
+  font-size: 30px;
+}
+.prev:hover, .next:hover {
+  background: cyan;
+  color: black;
+  box-shadow: 0 0 10px 1px cyan;
+}
