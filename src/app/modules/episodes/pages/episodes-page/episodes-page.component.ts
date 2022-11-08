@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {IAllEpisodes} from "../../interfaces";
 import {BehaviorSubject, Observable} from "rxjs";
+
+import {IAllEpisodes} from "../../interfaces";
 
 @Component({
   selector: 'app-episodes-page',

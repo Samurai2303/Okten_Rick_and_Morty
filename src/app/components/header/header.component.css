@@ -45,10 +45,3 @@
   color: black;
   font-weight: 600;
 }
-
-.active {
-  box-shadow: 0 0 10px 1px cyan;
-  background: cyan;
-  color: black;
-  font-weight: 600;
-}

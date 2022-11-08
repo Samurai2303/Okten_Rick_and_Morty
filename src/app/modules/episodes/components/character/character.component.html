@@ -1,6 +1,8 @@
-<div *ngIf="characterInfo">
-  <img src="{{characterInfo.image}}" alt="characterPhoto">
-  <p>
+<div *ngIf="characterInfo" class="wrap">
+  <div class="imgWrap">
+    <img src="{{characterInfo.image}}" alt="characterPhoto" class="img">
+  </div>
+  <p class="info">
     Name: {{characterInfo.name}} <br>
     Status: {{characterInfo.status}} <br>
     Species: {{characterInfo.species}} <br>

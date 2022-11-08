@@ -1,5 +1,7 @@
-<div *ngIf="episode">
-  <h2>{{episode.name}}</h2>
-  Episode: {{episode.episode}} <br>
-  Air data: {{episode.air_date}}
+<div *ngIf="episode" class="wrap">
+  <h2 class="title">{{episode.name}}</h2>
+  <p class="info">
+    Episode: {{episode.episode}} <br>
+    Air data: {{episode.air_date}}
+  </p>
 </div>
